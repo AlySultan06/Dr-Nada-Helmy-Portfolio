@@ -43,26 +43,26 @@ function Projects() {
       header: "Selective Pressure",
       description:
         "This project explains how the use of broad-spectrum antibiotics contributes to antibiotic resistance by killing susceptible bacteria and allowing resistant strains to thrive. It emphasizes the importance of narrowing antibiotic choices by identifying the specific causative organism.",
-      image: "../../public/imgs/selectivepressure.png",
+      image: "../../imgs/selectivepressure.png",
       craousel: false,
     },
     {
       header: "Rabies Prevention",
       description:
         "This project highlights the importance of timely rabies vaccination after an animal bite. It recommends immediate wound cleansing and a vaccine schedule on days 0, 3, 7, and 14, along with immunoglobulin on day 0. Early intervention is crucial, as symptoms indicate it's too late for treatment.",
-      image: "../../public/imgs/rabies.png",
+      image: "../../imgs/rabies.png",
       craousel: false,
     },
     {
       header: "Opportunistic Infection",
       description:
         "This project opportunistic infections like candidiasis and tuberculosis, highlighting their effects on those with weakened immune systems. It also offers six tips to boost immunity: eat well, be active, get enough sleep, maintain a healthy weight, quit smoking, and avoid alcohol",
-      image: "../../public/imgs/pdf1/infection1.png",
+      image: "../../imgs/pdf1/infection1.png",
       craousel: true,
       slides: [
-        "../../public/imgs/pdf1/infection1.png",
-        "../../public/imgs/pdf1/infection2.png",
-        "../../public/imgs/pdf1/infection3.png",
+        "../../imgs/pdf1/infection1.png",
+        "../../imgs/pdf1/infection2.png",
+        "../../imgs/pdf1/infection3.png",
       ],
     },
 
@@ -70,7 +70,7 @@ function Projects() {
       header: "Healthy Habits",
       description:
         "This project explains how diabetes prevention strategies can help reduce the risk of developing diabetes. It focuses on diet, exercise, and medication, as well as the importance of regular check-ups.",
-      image: "../../public/imgs/flyer.jpg",
+      image: "../../imgs/flyer.jpg",
       isDescription: false,
       craousel: false,
       
@@ -79,38 +79,38 @@ function Projects() {
       header: "Pancreas",
       description:
         "This project explores the pancreas's role in diabetes, focusing on its regulation of blood sugar through insulin production. It highlights how deficiencies and resistance affect glucose levels, emphasizing the pancreas's crucial function in metabolic balance.",
-      image: "../../public/imgs/pdf2/pancreas1.png",
+      image: "../../imgs/pdf2/pancreas1.png",
       isDescription: true,
       craousel: true,
       slides: [
-        "../../public/imgs/pdf2/pancreas1.png",
-        "../../public/imgs/pdf2/pancreas2.png",
-        "../../public/imgs/pdf2/pancreas3.png",
-        "../../public/imgs/pdf2/pancreas4.png",
-        "../../public/imgs/pdf2/pancreas5.png",
-        "../../public/imgs/pdf2/pancreas6.png",
-        "../../public/imgs/pdf2/pancreas7.png",
+        "../../imgs/pdf2/pancreas1.png",
+        "../../imgs/pdf2/pancreas2.png",
+        "../../imgs/pdf2/pancreas3.png",
+        "../../imgs/pdf2/pancreas4.png",
+        "../../imgs/pdf2/pancreas5.png",
+        "../../imgs/pdf2/pancreas6.png",
+        "../../imgs/pdf2/pancreas7.png",
       ],
     },
     {
       header: "Mask Importance",
       description:
         "This project aims to educate healthcare professionals and the public about the critical role of wearing masks during medical procedures and in everyday situations. It highlights the prevention of infections, such as bacterial meningitis, linked to inadequate mask use during spinal or epidural anesthesia.",
-      image: "../../public/imgs/pdf3/doctor1.jpg",
+      image: "../../imgs/pdf3/doctor1.jpg",
       isDescription: true,
       craousel: true,
       slides: [
-        "../../public/imgs/pdf3/doctor1.jpg",
-        "../../public/imgs/pdf3/doctor2.jpg",
-        "../../public/imgs/pdf3/doctor3.jpg",
-        "../../public/imgs/pdf3/doctor4.jpg",
+        "../../imgs/pdf3/doctor1.jpg",
+        "../../imgs/pdf3/doctor2.jpg",
+        "../../imgs/pdf3/doctor3.jpg",
+        "../../imgs/pdf3/doctor4.jpg",
       ]
     },
    {
       header: "Laporoscopic Surgery",
       description:
         "This project examines the role of laparoscopic surgery in treating diabetes, highlighting its benefits in managing the disease. It focuses on how minimally invasive techniques can improve patient outcomes and metabolic control.",
-      image: "../../public/imgs/laparoscopic.jpg",
+      image: "../../imgs/laparoscopic.jpg",
       craousel: false,
     },
   ];

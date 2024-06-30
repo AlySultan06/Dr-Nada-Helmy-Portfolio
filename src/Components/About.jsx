@@ -21,7 +21,7 @@ function About() {
             sx={{ maxWidth: "320px", mb: { xs: "30px", sm: "0px", md: "0px" } }}
           >
             <img
-              src="../../public/imgs/about.jpeg"
+              src="../../imgs/about.jpeg"
               style={{ borderRadius: "15px" }}
             />
           </Box>

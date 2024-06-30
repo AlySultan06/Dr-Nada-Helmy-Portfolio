@@ -142,7 +142,7 @@ function Home() {
                 y="20"
                 width="160"
                 height="160"
-                href="../../public/imgs/personal.png"
+                href="../../imgs/personal.png"
                 clipPath="url(#blob-clip)"
               />
             </svg>
