@@ -95,7 +95,7 @@ function Projects() {
     {
       header: "Mask Importance",
       description:
-        "This project aims to educate healthcare professionals and the public about the critical role of wearing masks during medical procedures and in everyday situations. It highlights the prevention of infections, such as bacterial meningitis, linked to inadequate mask use during spinal or epidural anesthesia.",
+        "This project aims to educate healthcare professionals about the critical role of wearing masks during medical procedures. It highlights the prevention of infections, such as bacterial meningitis, linked to inadequate mask use during spinal or epidural anesthesia.",
       image: "../../imgs/pdf3/doctor1.jpg",
       isDescription: true,
       craousel: true,
