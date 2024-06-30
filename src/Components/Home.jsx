@@ -38,7 +38,7 @@ function Home() {
               hi,
               <br />
               i`m <span style={{ color: "hsl( 224 , 89%, 60%)" }}>nada</span>
-              <br /> Medical contetnt creator
+              <br /> Medical content creator
             </Typography>
 
             <Button
