@@ -56,7 +56,7 @@ function About() {
             <Button
               component="a"
               download
-              href="../../public/DR-Nada CV.pdf"
+              href="../../DR-Nada CV.pdf"
               sx={{
                 bgcolor: "colors.main",
                 color: "white",
