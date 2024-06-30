@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+body {
+  min-height: 100vh;
+  background-color: white;
+  font-family: Poppins;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+picture,
+svg,
+video{
+  display: block;
+  width: 100%;
+}
+
+.active {
+  color: hsl(224, 89%, 60%) !important;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  overflow: hidden;
+  animation: l28 2s infinite;
+}
+.loader::before {
+  content: "Loading...";
+}
+
+@keyframes l28 {
+  0%,
+  10% {
+    transform: perspective(300px) rotate(0) rotateY(0) rotateX(0);
+  }
+  30%,
+  36% {
+    transform: perspective(300px) rotate(0.5turn) rotateY(0) rotateX(0);
+  }
+  63%,
+  69% {
+    transform: perspective(300px) rotate(0.5turn) rotateY(180deg) rotateX(0);
+  }
+  90%,
+  100% {
+    transform: perspective(300px) rotate(0.5turn) rotateY(180deg)
+      rotateX(180deg);
+  }
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.cardScale{
+  transition: 0.5s !important;
+}
+
+.cardScale:hover{
+  transform: scale(1.1);
+}
+
+
+
+.swiperimg{width: auto !important;}
+
+.swiper-slide{
+  display: flex !important;
+    justify-content: center;
+    align-items: center
+}
