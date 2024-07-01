@@ -183,6 +183,7 @@ function ContactForm(props) {
           alignItems: "center",
         }}
         onSubmit={props.handleSubmit}
+        netlify
       >
         <TextField
           fullWidth
